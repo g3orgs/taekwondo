@@ -1,9 +1,243 @@
- <!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Testprogramm mit acht Sequenzen für den DTU 1-Schritt-Kampf zum 1. Kup.">
+  <title>DTU-Prüfungsprogramm – 1-Schritt-Kampf</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17202a;
+      --muted: #5d6873;
+      --paper: #f4f1eb;
+      --card: #fff;
+      --red: #a62028;
+      --black: #151515;
+      --line: #ded8cf;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font: 16px/1.55 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    header {
+      color: #fff;
+      background: linear-gradient(115deg, var(--red) 0 62%, var(--black) 62% 100%);
+      padding: 3.5rem max(1.25rem, calc((100vw - 70rem) / 2));
+    }
+
+    header p { max-width: 50rem; margin: .7rem 0 0; }
+    h1 { margin: 0; font-size: clamp(2rem, 6vw, 4rem); line-height: 1.05; }
+
+    main {
+      width: min(70rem, calc(100% - 2rem));
+      margin: 2rem auto 4rem;
+    }
+
+    .notice {
+      padding: 1rem 1.2rem;
+      border-left: .35rem solid var(--red);
+      background: #fff7e8;
+    }
+
+    .assumptions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    .assumptions li {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      padding: .35rem .75rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 29rem), 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    article {
+      break-inside: avoid;
+      border: 1px solid var(--line);
+      border-top: .35rem solid var(--red);
+      border-radius: .35rem;
+      background: var(--card);
+      padding: 1.2rem;
+      box-shadow: 0 .3rem 1.2rem rgb(30 25 20 / 6%);
+    }
+
+    h2 { margin: 0 0 .8rem; font-size: 1.2rem; }
+    ol { margin: .7rem 0; padding-left: 1.5rem; }
+    .attack, .defence { margin: .25rem 0; }
+    .principle { color: var(--muted); margin: .8rem 0 0; }
+    .badge { color: var(--red); font-weight: 750; }
+
+    .checklist {
+      margin-top: 2rem;
+      border-radius: .35rem;
+      color: #fff;
+      background: var(--black);
+      padding: 1.4rem;
+    }
+
+    .checklist h2 { font-size: 1.4rem; }
+    .checklist ul { margin-bottom: 0; }
+
+    footer { color: var(--muted); margin-top: 1.5rem; font-size: .9rem; }
+    a { color: inherit; }
+
+    @media print {
+      body { background: #fff; font-size: 11pt; }
+      header { padding: 1.5rem; background: #fff; color: #000; border-bottom: 5pt solid #000; }
+      main { width: 100%; margin: 1rem 0; }
+      .grid { grid-template-columns: 1fr 1fr; gap: .6rem; }
+      article { box-shadow: none; padding: .8rem; }
+      .checklist { color: #000; background: #fff; border: 1px solid #000; }
+    }
+  </style>
+</head>
 <body>
+  <header>
+    <h1>1-Schritt-Kampf</h1>
+    <p>Testprogramm mit acht verschiedenen Übungen für die DTU-Prüfung zum 1. Kup – roter Gürtel mit schwarzem Streifen.</p>
+  </header>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+  <main>
+    <p class="notice"><strong>Arbeitsstand:</strong> Alle Sequenzen zuerst langsam und ohne Kontakt testen. Distanz, Standwechsel und Zielhöhen anschließend mit dem Trainer abstimmen.</p>
 
+    <ul class="assumptions" aria-label="Rahmenbedingungen">
+      <li>Angreifer greift rechts an</li>
+      <li>1 Abwehr</li>
+      <li>3 Folgetechniken</li>
+      <li>Nur einmal 4 Folgen</li>
+      <li>Rechts ist die bevorzugte Seite</li>
+    </ul>
+
+    <section class="grid" aria-label="Acht Sequenzen">
+      <article>
+        <h2><span class="badge">01</span> Klassische Kombination</h2>
+        <p class="attack"><strong>Angriff:</strong> Momtong Jireugi rechts</p>
+        <p class="defence"><strong>Abwehr:</strong> Rechten Fuß zurücksetzen, Momtong An Makki links</p>
+        <ol>
+          <li>Momtong Jireugi rechts</li>
+          <li>Eolgul Jireugi links</li>
+          <li>Ap Chagi rechts zum Oberkörper</li>
+        </ol>
+        <p class="principle">Körper → Kopf → Fußtechnik</p>
+      </article>
+
+      <article>
+        <h2><span class="badge">02</span> Wechsel in die Nahdistanz</h2>
+        <p class="attack"><strong>Angriff:</strong> Eolgul Jireugi rechts</p>
+        <p class="defence"><strong>Abwehr:</strong> Links diagonal nach außen, Eolgul Bakkat Makki links</p>
+        <ol>
+          <li>Deung Jumeok Ap Chigi rechts zum Kopf</li>
+          <li>Rechts herantreten, Palkup Dollyeo Chigi zum Oberkörper</li>
+          <li>Yop Chagi rechts zum Oberkörper und Distanz lösen</li>
+        </ol>
+        <p class="principle">Handdistanz → Ellbogendistanz → Ausstieg</p>
+      </article>
+
+      <article>
+        <h2><span class="badge">03</span> Seitliche Fußabwehr</h2>
+        <p class="attack"><strong>Angriff:</strong> Ap Chagi rechts</p>
+        <p class="defence"><strong>Abwehr:</strong> Links diagonal ausweichen, Sonnal Arae Makki links</p>
+        <ol>
+          <li>Momtong Jireugi rechts</li>
+          <li>Ap Chagi links</li>
+          <li>Paltung Chagi rechts zum Oberkörper</li>
+        </ol>
+        <p class="principle">Ableiten → Faust → vorderes Bein → hinteres Bein</p>
+      </article>
+
+      <article>
+        <h2><span class="badge">04</span> Kreuzblock und Dwit Chagi</h2>
+        <p class="attack"><strong>Angriff:</strong> Ap Chagi rechts</p>
+        <p class="defence"><strong>Abwehr:</strong> Rechten Fuß zurücksetzen, Eotgeoreo Arae Makki</p>
+        <ol>
+          <li>Ap Chagi rechts</li>
+          <li>Rechts vorn absetzen, Momtong Jireugi links</li>
+          <li>Nach links drehen, Dwit Chagi rechts zum Oberkörper</li>
+        </ol>
+        <p class="principle">Vor dem Dwit Chagi über die Schulter zum Ziel schauen.</p>
+      </article>
+
+      <article>
+        <h2><span class="badge">05</span> Vier Distanzstufen</h2>
+        <p class="attack"><strong>Angriff:</strong> Momtong Jireugi rechts</p>
+        <p class="defence"><strong>Abwehr:</strong> Rechten Fuß zurück in Dwit-gubi, Sonnal Momtong Makki links</p>
+        <ol>
+          <li>Paltung Chagi rechts</li>
+          <li>Rechts vorn absetzen, Momtong Jireugi links</li>
+          <li>Rechts herantreten, Palkup Dollyeo Chigi zum Oberkörper</li>
+          <li>Yop Chagi rechts zum Lösen aus der Nahdistanz</li>
+        </ol>
+        <p class="principle">Lang → mittel → nah → kontrollierter Ausstieg</p>
+      </article>
+
+      <article>
+        <h2><span class="badge">06</span> Innenseite und linkes Bein</h2>
+        <p class="attack"><strong>Angriff:</strong> Eolgul Jireugi rechts</p>
+        <p class="defence"><strong>Abwehr:</strong> Rechts diagonal aus der Trefferlinie, Eolgul Makki rechts</p>
+        <ol>
+          <li>Momtong Jireugi links</li>
+          <li>Deung Jumeok Ap Chigi rechts</li>
+          <li>Paltung Chagi links zum Oberkörper</li>
+        </ol>
+        <p class="principle">Beim Test besonders auf Winkel und Gleichgewicht achten.</p>
+      </article>
+
+      <article>
+        <h2><span class="badge">07</span> Gesprungener Ap Chagi</h2>
+        <p class="attack"><strong>Angriff:</strong> Momtong Jireugi rechts</p>
+        <p class="defence"><strong>Abwehr:</strong> Linken Fuß zurücksetzen, Momtong Bakkat Makki rechts</p>
+        <ol>
+          <li>Momtong Jireugi links</li>
+          <li>Ap Chagi links und vorn absetzen</li>
+          <li>Gesprungener Ap Chagi rechts zum Oberkörper</li>
+        </ol>
+        <p class="principle">Der erste Tritt schafft die Distanz für den Sprungtritt.</p>
+      </article>
+
+      <article>
+        <h2><span class="badge">08</span> Fuß, Handrücken und Ellenbogen</h2>
+        <p class="attack"><strong>Angriff:</strong> Momtong Jireugi rechts</p>
+        <p class="defence"><strong>Abwehr:</strong> Links diagonal nach außen, Hansonnal Momtong Bakkat Makki links</p>
+        <ol>
+          <li>Paltung Chagi rechts zum Oberkörper</li>
+          <li>Rechts absetzen und mit links vortreten, Deung Jumeok Ap Chigi links</li>
+          <li>Rechts nachsetzen, Palkup Dollyeo Chigi zum Oberkörper</li>
+        </ol>
+        <p class="principle">Fußdistanz → Handdistanz → Ellbogendistanz</p>
+      </article>
+    </section>
+
+    <section class="checklist">
+      <h2>Checkliste fürs Probetraining</h2>
+      <ul>
+        <li>Passt die Distanz bei jeder Folgetechnik?</li>
+        <li>Gibt es unnötige Zwischen- oder Korrekturschritte?</li>
+        <li>Bleibt die Endposition stabil und zum Partner ausgerichtet?</li>
+        <li>Können Kopf- und Ellbogentechniken sicher gestoppt werden?</li>
+        <li>Besonders Sequenzen 2, 4, 6 und 8 kritisch prüfen.</li>
+      </ul>
+    </section>
+
+    <footer>
+      Grundlage: <a href="https://www.dtu.de/fileadmin/Downloads/Ordnungen/2026/10.1_PO_vorl_Stand_12.02.2026.pdf">DTU-Prüfungsordnung 2026</a>. Die konkrete Ausführung ist mit Trainer und Prüfungspartner abzustimmen.
+    </footer>
+  </main>
 </body>
-</html> 
+</html>
