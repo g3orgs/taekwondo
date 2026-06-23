@@ -23,6 +23,10 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 **Prinzip:** Körper → Kopf → Fußtechnik
 
+![Sequenz 1 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-01-draufsicht.svg)
+
+*A = Angreifer, V = Verteidiger. R und L bezeichnen jeweils die eigene rechte beziehungsweise linke Seite der dargestellten Person.*
+
 ## Sequenz 2: Wechsel in die Nahdistanz
 
 **Angriff:** Eolgul Jireugi rechts  
