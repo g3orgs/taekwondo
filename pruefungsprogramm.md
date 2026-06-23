@@ -13,31 +13,31 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 - Rechts ist die bevorzugte Seite.
 - Kopf-, Ellenbogen- und Fußtechniken werden deutlich vor dem Ziel gestoppt.
 
-**Stellungsnamen:** Ap Gubi = große Vorwärtsbeugestellung; Dwit Gubi = Rückwärtsbeugestellung. Die Beschriftung nennt den tatsächlich bewegten Fuß (`R vor`, `R zurück`, `diagonal links` usw.). Während eines Tritts zeigen die Grafiken Standbein und Trittbein.
+**Stellungsnamen:** Naranhi Seogi = parallele Ausgangsstellung; Ap Gubi = große Vorwärtsbeugestellung; Dwit Gubi = Rückwärtsbeugestellung. Die Beschriftung nennt den tatsächlich bewegten Fuß (`R vor`, `R zurück`, `diagonal links` usw.). Während eines Tritts zeigen die Grafiken Standbein und Trittbein.
 
 ## Sequenz 1: Klassische Kombination
 
 **Angriff:** Momtong Jireugi rechts zur Körpermitte
 
-**Abwehr:** Rechten Fuß zurücksetzen, Momtong An Makki links
+**Abwehr:** Linken Fuß zurücksetzen, Momtong An Makki links
 
-**Fußarbeit:** Angreifer: Ap Gubi, rechts vor; Verteidiger: Ap Gubi, rechts zurück
+**Fußarbeit:** Angreifer: Ap Gubi, rechts vor; Verteidiger: aus Naranhi Seogi links zurück in Ap Gubi
 
-1. Momtong Jireugi rechts
+1. Gleichzeitig Momtong Jireugi rechts zur Körpermitte
 2. Eolgul Jireugi links
 3. Ap Chagi rechts zum Oberkörper
 
-**Prinzip:** Körper → Kopf → Fußtechnik
+**Prinzip:** Ausweichen + Körper → Kopf → Fußtechnik
 
 ![Sequenz 1 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-01-draufsicht.svg)
 
 *A = Angreifer, V = Verteidiger. R und L bezeichnen jeweils die eigene rechte beziehungsweise linke Seite der dargestellten Person.*
 
-> **Komplexität: 5 Aktionen · 4 Technikarten**
+> **Komplexität: 5 Technikaktionen · 4 Technikarten**
 >
 > **Techniken:** Momtong Jireugi R (Angriff und Konter), Momtong An Makki L, Eolgul Jireugi L, Ap Chagi R
 >
-> **Stellungen/Fußarbeit:** Ap Gubi; A: R vor; V: R zurück; Standbein L beim Ap Chagi R
+> **Stellungen/Fußarbeit:** Naranhi Seogi (Ausgang), Ap Gubi; A: R vor; V: L zurück; Standbein L beim Ap Chagi R
 
 ## Sequenz 2: Wechsel in die Nahdistanz
 
