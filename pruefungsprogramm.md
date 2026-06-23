@@ -38,6 +38,8 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 **Prinzip:** Handdistanz → Ellbogendistanz → Ausstieg
 
+![Sequenz 2 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-02-draufsicht.svg)
+
 ## Sequenz 3: Seitliche Fußabwehr
 
 **Angriff:** Ap Chagi rechts  
@@ -49,6 +51,8 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 **Prinzip:** Ableiten → Faust → vorderes Bein → hinteres Bein
 
+![Sequenz 3 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-03-draufsicht.svg)
+
 ## Sequenz 4: Kreuzblock und Dwit Chagi
 
 **Angriff:** Ap Chagi rechts  
@@ -59,6 +63,8 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 3. Nach links drehen, Dwit Chagi rechts zum Oberkörper
 
 **Prüfpunkt:** Vor dem Dwit Chagi über die Schulter zum Ziel schauen. Nach dem Fauststoß muss genug Abstand für den Rückwärtstritt vorhanden sein.
+
+![Sequenz 4 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-04-draufsicht.svg)
 
 ## Sequenz 5: Vier Distanzstufen
 
@@ -72,6 +78,8 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 **Prinzip:** Lange Distanz → mittlere Distanz → Nahdistanz → kontrollierter Ausstieg
 
+![Sequenz 5 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-05-draufsicht.svg)
+
 ## Sequenz 6: Innenseite und linkes Bein
 
 **Angriff:** Eolgul Jireugi rechts  
@@ -82,6 +90,8 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 3. Paltung Chagi links zum Oberkörper
 
 **Prüfpunkt:** Beim Test besonders auf Winkel und Gleichgewicht achten. Falls der Abschluss links nicht stabil funktioniert, wird die Sequenz auf die rechte Seite umgebaut.
+
+![Sequenz 6 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-06-draufsicht.svg)
 
 ## Sequenz 7: Gesprungener Ap Chagi
 
@@ -94,6 +104,8 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 **Prinzip:** Der erste Tritt schafft die Distanz für den gesprungenen Ap Chagi.
 
+![Sequenz 7 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-07-draufsicht.svg)
+
 ## Sequenz 8: Fuß, Handrücken und Ellenbogen
 
 **Angriff:** Momtong Jireugi rechts  
@@ -104,6 +116,8 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 3. Rechts nachsetzen, Palkup Dollyeo Chigi zum Oberkörper
 
 **Prinzip:** Fußdistanz → Handdistanz → Ellbogendistanz
+
+![Sequenz 8 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-08-draufsicht.svg)
 
 ## Checkliste fürs Probetraining
 

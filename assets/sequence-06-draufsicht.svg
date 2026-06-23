@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Sequenz 6: Innenseite und linkes Bein als Draufsicht</title>
+  <desc id="desc">Die Phasen zeigen Angreifer und Verteidiger von oben. R und L bezeichnen immer die eigene Seite der dargestellten Person.</desc>
+  <defs>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#a62028"/></marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1769aa"/></marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#69737d"/></marker>
+    <style>
+      .panel{fill:#fff;stroke:#d8d2c9;stroke-width:2}.panel-title{fill:#17202a;font:700 21px system-ui,sans-serif}.panel-title.compact{font-size:18px}.caption{fill:#4f5a65;font:15px system-ui,sans-serif}.legend,.move-label{fill:#17202a;font:16px system-ui,sans-serif}.move-label{font-size:14px;font-weight:650}.torso,.head{stroke-width:3}.attacker .torso,.attacker .head{fill:#f8d9dc;stroke:#a62028}.defender .torso,.defender .head{fill:#dbeeff;stroke:#1769aa}.limb{fill:none;stroke:#69737d;stroke-linecap:round;stroke-width:7}.active-red,.active-blue{fill:none;stroke-linecap:round;stroke-width:9}.active-red{stroke:#a62028}.active-blue{stroke:#1769aa}.foot{stroke-width:2}.attacker .foot{fill:#fff4f4;stroke:#a62028}.defender .foot{fill:#f1f8ff;stroke:#1769aa}.active-foot-red{fill:#fff4f4;stroke:#a62028;stroke-width:3}.active-foot-blue{fill:#f1f8ff;stroke:#1769aa;stroke-width:3}.ghost{opacity:.25}.side,.person-label{fill:#17202a;font:700 14px system-ui,sans-serif;text-anchor:middle;dominant-baseline:middle}.motion-red,.motion-blue,.motion-gray,.rotation{fill:none;stroke-width:4;stroke-dasharray:8 6}.motion-red{stroke:#a62028;marker-end:url(#arrow-red)}.motion-blue{stroke:#1769aa;marker-end:url(#arrow-blue)}.motion-gray{stroke:#69737d;stroke-width:3;marker-end:url(#arrow-gray)}.rotation{stroke:#1769aa;marker-end:url(#arrow-blue)}
+    </style>
+  </defs>
+  <rect width="1200" height="820" fill="#f4f1eb"/>
+  <text x="35" y="38" fill="#17202a" font-family="system-ui, sans-serif" font-size="27" font-weight="750">Sequenz 6 · Innenseite und linkes Bein</text>
+  <g id="sequence-6-legend" transform="translate(35 58)">
+    <circle cx="10" cy="10" r="9" fill="#f8d9dc" stroke="#a62028" stroke-width="2"/><text class="legend" x="28" y="16">Angreifer</text>
+    <circle cx="145" cy="10" r="9" fill="#dbeeff" stroke="#1769aa" stroke-width="2"/><text class="legend" x="163" y="16">Verteidiger</text>
+    <text class="legend" x="310" y="16">R/L = eigene Seite · Blickrichtung jeweils zum Partner · schematische Draufsicht</text>
+  </g>
+  <g id="sequence-6-phase-1" class="phase">
+    <rect class="panel" x="25" y="95" width="560" height="340" rx="14"/>
+    <text class="panel-title" x="45" y="128">1 · Angriff und Abwehr</text>
+    <g id="sequence-6-phase-1-attacker" class="person attacker">
+    <ellipse class="torso" cx="305" cy="195" rx="34" ry="23"/>
+    <circle class="head" cx="305" cy="228" r="16"/>
+    <text class="person-label" x="305" y="195">A</text>
+    <line class="limb" x1="284" y1="201" x2="271" y2="226"/>
+    <line class="limb" x1="326" y1="201" x2="339" y2="226"/>
+    <g id="sequence-6-phase-1-attacker-foot-l"><rect class="foot" x="322" y="138" width="26" height="44" rx="13"/><text class="side" x="335" y="160">L</text></g><g id="sequence-6-phase-1-attacker-foot-r"><rect class="foot" x="262" y="208" width="26" height="44" rx="13"/><text class="side" x="275" y="230">R</text></g>
+  </g>
+    <g id="sequence-6-phase-1-defender" class="person defender">
+    <ellipse class="torso" cx="343" cy="320" rx="34" ry="23"/>
+    <circle class="head" cx="343" cy="287" r="16"/>
+    <text class="person-label" x="343" y="320">V</text>
+    <line class="limb" x1="322" y1="314" x2="309" y2="289"/>
+    <line class="limb" x1="364" y1="314" x2="377" y2="289"/>
+    <g id="sequence-6-phase-1-defender-foot-l"><rect class="foot" x="300" y="263" width="26" height="44" rx="13"/><text class="side" x="313" y="285">L</text></g><g id="sequence-6-phase-1-defender-foot-r"><rect class="foot" x="360" y="333" width="26" height="44" rx="13"/><text class="side" x="373" y="355">R</text></g>
+  </g>
+    <g id="sequence-6-phase-1-movement" class="movement"><path class="motion-gray" d="M 305 320 L 343 320"/><text class="move-label" x="567" y="152" text-anchor="end">diagonal rechts</text></g><g id="sequence-6-phase-1-action-1" class="action action-punch"><path class="active-red" d="M 283 202 L 343 287"/><path class="motion-red" d="M 283 202 L 343 287"/></g><g id="sequence-6-phase-1-action-2" class="action action-block"><path class="active-blue" d="M 365 315 Q 343 290 348 265"/></g><text class="caption" x="45" y="401">Eolgul Jireugi R · rechts diagonal · Eolgul Makki R</text>
+  </g>
+<g id="sequence-6-phase-2" class="phase">
+    <rect class="panel" x="615" y="95" width="560" height="340" rx="14"/>
+    <text class="panel-title" x="635" y="128">2 · Momtong Jireugi links</text>
+    <g id="sequence-6-phase-2-attacker" class="person attacker">
+    <ellipse class="torso" cx="895" cy="195" rx="34" ry="23"/>
+    <circle class="head" cx="895" cy="228" r="16"/>
+    <text class="person-label" x="895" y="195">A</text>
+    <line class="limb" x1="874" y1="201" x2="861" y2="226"/>
+    <line class="limb" x1="916" y1="201" x2="929" y2="226"/>
+    <g id="sequence-6-phase-2-attacker-foot-l"><rect class="foot" x="912" y="138" width="26" height="44" rx="13"/><text class="side" x="925" y="160">L</text></g><g id="sequence-6-phase-2-attacker-foot-r"><rect class="foot" x="852" y="208" width="26" height="44" rx="13"/><text class="side" x="865" y="230">R</text></g>
+  </g>
+    <g id="sequence-6-phase-2-defender" class="person defender">
+    <ellipse class="torso" cx="933" cy="320" rx="34" ry="23"/>
+    <circle class="head" cx="933" cy="287" r="16"/>
+    <text class="person-label" x="933" y="320">V</text>
+    <line class="limb" x1="912" y1="314" x2="899" y2="289"/>
+    <line class="limb" x1="954" y1="314" x2="967" y2="289"/>
+    <g id="sequence-6-phase-2-defender-foot-l"><rect class="foot" x="890" y="263" width="26" height="44" rx="13"/><text class="side" x="903" y="285">L</text></g><g id="sequence-6-phase-2-defender-foot-r"><rect class="foot" x="950" y="333" width="26" height="44" rx="13"/><text class="side" x="963" y="355">R</text></g>
+  </g>
+    <g id="sequence-6-phase-2-action-1" class="action action-punch"><path class="active-blue" d="M 911 313 L 895 195"/><path class="motion-blue" d="M 911 313 L 895 195"/></g><text class="caption" x="635" y="401">Linke Faust zum Oberkörper</text>
+  </g>
+<g id="sequence-6-phase-3" class="phase">
+    <rect class="panel" x="25" y="455" width="560" height="340" rx="14"/>
+    <text class="panel-title" x="45" y="488">3 · Deung Jumeok rechts</text>
+    <g id="sequence-6-phase-3-attacker" class="person attacker">
+    <ellipse class="torso" cx="305" cy="555" rx="34" ry="23"/>
+    <circle class="head" cx="305" cy="588" r="16"/>
+    <text class="person-label" x="305" y="555">A</text>
+    <line class="limb" x1="284" y1="561" x2="271" y2="586"/>
+    <line class="limb" x1="326" y1="561" x2="339" y2="586"/>
+    <g id="sequence-6-phase-3-attacker-foot-l"><rect class="foot" x="322" y="498" width="26" height="44" rx="13"/><text class="side" x="335" y="520">L</text></g><g id="sequence-6-phase-3-attacker-foot-r"><rect class="foot" x="262" y="568" width="26" height="44" rx="13"/><text class="side" x="275" y="590">R</text></g>
+  </g>
+    <g id="sequence-6-phase-3-defender" class="person defender">
+    <ellipse class="torso" cx="335" cy="672" rx="34" ry="23"/>
+    <circle class="head" cx="335" cy="639" r="16"/>
+    <text class="person-label" x="335" y="672">V</text>
+    <line class="limb" x1="314" y1="666" x2="301" y2="641"/>
+    <line class="limb" x1="356" y1="666" x2="369" y2="641"/>
+    <g id="sequence-6-phase-3-defender-foot-l"><rect class="foot" x="292" y="615" width="26" height="44" rx="13"/><text class="side" x="305" y="637">L</text></g><g id="sequence-6-phase-3-defender-foot-r"><rect class="foot" x="352" y="685" width="26" height="44" rx="13"/><text class="side" x="365" y="707">R</text></g>
+  </g>
+    <g id="sequence-6-phase-3-action-1" class="action action-backfist"><path class="active-blue" d="M 357 665 Q 360 630 305 588"/><path class="motion-blue" d="M 357 665 L 305 588"/></g><text class="caption" x="45" y="761">Rechter Handrückenschlag zum Kopf</text>
+  </g>
+<g id="sequence-6-phase-4" class="phase">
+    <rect class="panel" x="615" y="455" width="560" height="340" rx="14"/>
+    <text class="panel-title" x="635" y="488">4 · Paltung Chagi links</text>
+    <g id="sequence-6-phase-4-attacker" class="person attacker">
+    <ellipse class="torso" cx="895" cy="555" rx="34" ry="23"/>
+    <circle class="head" cx="895" cy="588" r="16"/>
+    <text class="person-label" x="895" y="555">A</text>
+    <line class="limb" x1="874" y1="561" x2="861" y2="586"/>
+    <line class="limb" x1="916" y1="561" x2="929" y2="586"/>
+    <g id="sequence-6-phase-4-attacker-foot-l"><rect class="foot" x="912" y="498" width="26" height="44" rx="13"/><text class="side" x="925" y="520">L</text></g><g id="sequence-6-phase-4-attacker-foot-r"><rect class="foot" x="852" y="568" width="26" height="44" rx="13"/><text class="side" x="865" y="590">R</text></g>
+  </g>
+    <g id="sequence-6-phase-4-defender" class="person defender">
+    <ellipse class="torso" cx="915" cy="668" rx="34" ry="23"/>
+    <circle class="head" cx="915" cy="635" r="16"/>
+    <text class="person-label" x="915" y="668">V</text>
+    <line class="limb" x1="894" y1="662" x2="881" y2="637"/>
+    <line class="limb" x1="936" y1="662" x2="949" y2="637"/>
+    <g id="sequence-6-phase-4-defender-foot-l" class="ghost"><rect class="foot" x="872" y="611" width="26" height="44" rx="13"/><text class="side" x="885" y="633">L</text></g><g id="sequence-6-phase-4-defender-foot-r"><rect class="foot" x="932" y="681" width="26" height="44" rx="13"/><text class="side" x="945" y="703">R</text></g>
+  </g>
+    <g id="sequence-6-phase-4-action-1" class="action action-roundkick">
+      <path class="motion-blue" d="M 885 633 Q 957 611.5 895 555"/>
+      <rect class="active-foot-blue" x="882" y="534" width="26" height="42" rx="13"/>
+      <text class="side" x="895" y="555">L</text>
+    </g><text class="caption" x="635" y="761">Linker Rundtritt zum Oberkörper</text>
+  </g>
+</svg>

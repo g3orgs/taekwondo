@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Sequenz 7: Gesprungener Ap Chagi als Draufsicht</title>
+  <desc id="desc">Die Phasen zeigen Angreifer und Verteidiger von oben. R und L bezeichnen immer die eigene Seite der dargestellten Person.</desc>
+  <defs>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#a62028"/></marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1769aa"/></marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#69737d"/></marker>
+    <style>
+      .panel{fill:#fff;stroke:#d8d2c9;stroke-width:2}.panel-title{fill:#17202a;font:700 21px system-ui,sans-serif}.panel-title.compact{font-size:18px}.caption{fill:#4f5a65;font:15px system-ui,sans-serif}.legend,.move-label{fill:#17202a;font:16px system-ui,sans-serif}.move-label{font-size:14px;font-weight:650}.torso,.head{stroke-width:3}.attacker .torso,.attacker .head{fill:#f8d9dc;stroke:#a62028}.defender .torso,.defender .head{fill:#dbeeff;stroke:#1769aa}.limb{fill:none;stroke:#69737d;stroke-linecap:round;stroke-width:7}.active-red,.active-blue{fill:none;stroke-linecap:round;stroke-width:9}.active-red{stroke:#a62028}.active-blue{stroke:#1769aa}.foot{stroke-width:2}.attacker .foot{fill:#fff4f4;stroke:#a62028}.defender .foot{fill:#f1f8ff;stroke:#1769aa}.active-foot-red{fill:#fff4f4;stroke:#a62028;stroke-width:3}.active-foot-blue{fill:#f1f8ff;stroke:#1769aa;stroke-width:3}.ghost{opacity:.25}.side,.person-label{fill:#17202a;font:700 14px system-ui,sans-serif;text-anchor:middle;dominant-baseline:middle}.motion-red,.motion-blue,.motion-gray,.rotation{fill:none;stroke-width:4;stroke-dasharray:8 6}.motion-red{stroke:#a62028;marker-end:url(#arrow-red)}.motion-blue{stroke:#1769aa;marker-end:url(#arrow-blue)}.motion-gray{stroke:#69737d;stroke-width:3;marker-end:url(#arrow-gray)}.rotation{stroke:#1769aa;marker-end:url(#arrow-blue)}
+    </style>
+  </defs>
+  <rect width="1200" height="820" fill="#f4f1eb"/>
+  <text x="35" y="38" fill="#17202a" font-family="system-ui, sans-serif" font-size="27" font-weight="750">Sequenz 7 · Gesprungener Ap Chagi</text>
+  <g id="sequence-7-legend" transform="translate(35 58)">
+    <circle cx="10" cy="10" r="9" fill="#f8d9dc" stroke="#a62028" stroke-width="2"/><text class="legend" x="28" y="16">Angreifer</text>
+    <circle cx="145" cy="10" r="9" fill="#dbeeff" stroke="#1769aa" stroke-width="2"/><text class="legend" x="163" y="16">Verteidiger</text>
+    <text class="legend" x="310" y="16">R/L = eigene Seite · Blickrichtung jeweils zum Partner · schematische Draufsicht</text>
+  </g>
+  <g id="sequence-7-phase-1" class="phase">
+    <rect class="panel" x="25" y="95" width="560" height="340" rx="14"/>
+    <text class="panel-title" x="45" y="128">1 · Angriff und Abwehr</text>
+    <g id="sequence-7-phase-1-attacker" class="person attacker">
+    <ellipse class="torso" cx="305" cy="195" rx="34" ry="23"/>
+    <circle class="head" cx="305" cy="228" r="16"/>
+    <text class="person-label" x="305" y="195">A</text>
+    <line class="limb" x1="284" y1="201" x2="271" y2="226"/>
+    <line class="limb" x1="326" y1="201" x2="339" y2="226"/>
+    <g id="sequence-7-phase-1-attacker-foot-l"><rect class="foot" x="322" y="138" width="26" height="44" rx="13"/><text class="side" x="335" y="160">L</text></g><g id="sequence-7-phase-1-attacker-foot-r"><rect class="foot" x="262" y="208" width="26" height="44" rx="13"/><text class="side" x="275" y="230">R</text></g>
+  </g>
+    <g id="sequence-7-phase-1-defender" class="person defender">
+    <ellipse class="torso" cx="305" cy="320" rx="34" ry="23"/>
+    <circle class="head" cx="305" cy="287" r="16"/>
+    <text class="person-label" x="305" y="320">V</text>
+    <line class="limb" x1="284" y1="314" x2="271" y2="289"/>
+    <line class="limb" x1="326" y1="314" x2="339" y2="289"/>
+    <g id="sequence-7-phase-1-defender-foot-l"><rect class="foot" x="262" y="333" width="26" height="44" rx="13"/><text class="side" x="275" y="355">L</text></g><g id="sequence-7-phase-1-defender-foot-r"><rect class="foot" x="322" y="263" width="26" height="44" rx="13"/><text class="side" x="335" y="285">R</text></g>
+  </g>
+    <g id="sequence-7-phase-1-movement" class="movement"><path class="motion-gray" d="M 275 320 L 275 355"/><text class="move-label" x="567" y="152" text-anchor="end">L zurück</text></g><g id="sequence-7-phase-1-action-1" class="action action-punch"><path class="active-red" d="M 283 202 L 305 320"/><path class="motion-red" d="M 283 202 L 305 320"/></g><g id="sequence-7-phase-1-action-2" class="action action-block"><path class="active-blue" d="M 327 315 Q 305 290 310 265"/></g><text class="caption" x="45" y="401">Momtong Jireugi R · L zurück · Momtong Bakkat Makki R</text>
+  </g>
+<g id="sequence-7-phase-2" class="phase">
+    <rect class="panel" x="615" y="95" width="560" height="340" rx="14"/>
+    <text class="panel-title" x="635" y="128">2 · Momtong Jireugi links</text>
+    <g id="sequence-7-phase-2-attacker" class="person attacker">
+    <ellipse class="torso" cx="895" cy="195" rx="34" ry="23"/>
+    <circle class="head" cx="895" cy="228" r="16"/>
+    <text class="person-label" x="895" y="195">A</text>
+    <line class="limb" x1="874" y1="201" x2="861" y2="226"/>
+    <line class="limb" x1="916" y1="201" x2="929" y2="226"/>
+    <g id="sequence-7-phase-2-attacker-foot-l"><rect class="foot" x="912" y="138" width="26" height="44" rx="13"/><text class="side" x="925" y="160">L</text></g><g id="sequence-7-phase-2-attacker-foot-r"><rect class="foot" x="852" y="208" width="26" height="44" rx="13"/><text class="side" x="865" y="230">R</text></g>
+  </g>
+    <g id="sequence-7-phase-2-defender" class="person defender">
+    <ellipse class="torso" cx="895" cy="320" rx="34" ry="23"/>
+    <circle class="head" cx="895" cy="287" r="16"/>
+    <text class="person-label" x="895" y="320">V</text>
+    <line class="limb" x1="874" y1="314" x2="861" y2="289"/>
+    <line class="limb" x1="916" y1="314" x2="929" y2="289"/>
+    <g id="sequence-7-phase-2-defender-foot-l"><rect class="foot" x="852" y="333" width="26" height="44" rx="13"/><text class="side" x="865" y="355">L</text></g><g id="sequence-7-phase-2-defender-foot-r"><rect class="foot" x="912" y="263" width="26" height="44" rx="13"/><text class="side" x="925" y="285">R</text></g>
+  </g>
+    <g id="sequence-7-phase-2-action-1" class="action action-punch"><path class="active-blue" d="M 873 313 L 895 195"/><path class="motion-blue" d="M 873 313 L 895 195"/></g><text class="caption" x="635" y="401">Linke Faust zum Oberkörper</text>
+  </g>
+<g id="sequence-7-phase-3" class="phase">
+    <rect class="panel" x="25" y="455" width="560" height="340" rx="14"/>
+    <text class="panel-title" x="45" y="488">3 · Ap Chagi links</text>
+    <g id="sequence-7-phase-3-attacker" class="person attacker">
+    <ellipse class="torso" cx="305" cy="555" rx="34" ry="23"/>
+    <circle class="head" cx="305" cy="588" r="16"/>
+    <text class="person-label" x="305" y="555">A</text>
+    <line class="limb" x1="284" y1="561" x2="271" y2="586"/>
+    <line class="limb" x1="326" y1="561" x2="339" y2="586"/>
+    <g id="sequence-7-phase-3-attacker-foot-l"><rect class="foot" x="322" y="498" width="26" height="44" rx="13"/><text class="side" x="335" y="520">L</text></g><g id="sequence-7-phase-3-attacker-foot-r"><rect class="foot" x="262" y="568" width="26" height="44" rx="13"/><text class="side" x="275" y="590">R</text></g>
+  </g>
+    <g id="sequence-7-phase-3-defender" class="person defender">
+    <ellipse class="torso" cx="305" cy="672" rx="34" ry="23"/>
+    <circle class="head" cx="305" cy="639" r="16"/>
+    <text class="person-label" x="305" y="672">V</text>
+    <line class="limb" x1="284" y1="666" x2="271" y2="641"/>
+    <line class="limb" x1="326" y1="666" x2="339" y2="641"/>
+    <g id="sequence-7-phase-3-defender-foot-l" class="ghost"><rect class="foot" x="262" y="685" width="26" height="44" rx="13"/><text class="side" x="275" y="707">L</text></g><g id="sequence-7-phase-3-defender-foot-r"><rect class="foot" x="322" y="615" width="26" height="44" rx="13"/><text class="side" x="335" y="637">R</text></g>
+  </g>
+    <g id="sequence-7-phase-3-movement" class="movement"><path class="motion-gray" d="M 275 707 L 275 707"/><text class="move-label" x="567" y="512" text-anchor="end">L absetzen</text></g><g id="sequence-7-phase-3-action-1" class="action action-kick">
+      <path class="motion-blue" d="M 275 707 L 305 555"/>
+      <rect class="active-foot-blue" x="292" y="534" width="26" height="42" rx="13"/>
+      <text class="side" x="305" y="555">L</text>
+    </g><text class="caption" x="45" y="761">Linker Vorwärtstritt · links vorn absetzen</text>
+  </g>
+<g id="sequence-7-phase-4" class="phase">
+    <rect class="panel" x="615" y="455" width="560" height="340" rx="14"/>
+    <text class="panel-title" x="635" y="488">4 · Ap Chagi rechts gesprungen</text>
+    <g id="sequence-7-phase-4-attacker" class="person attacker">
+    <ellipse class="torso" cx="895" cy="555" rx="34" ry="23"/>
+    <circle class="head" cx="895" cy="588" r="16"/>
+    <text class="person-label" x="895" y="555">A</text>
+    <line class="limb" x1="874" y1="561" x2="861" y2="586"/>
+    <line class="limb" x1="916" y1="561" x2="929" y2="586"/>
+    <g id="sequence-7-phase-4-attacker-foot-l"><rect class="foot" x="912" y="498" width="26" height="44" rx="13"/><text class="side" x="925" y="520">L</text></g><g id="sequence-7-phase-4-attacker-foot-r"><rect class="foot" x="852" y="568" width="26" height="44" rx="13"/><text class="side" x="865" y="590">R</text></g>
+  </g>
+    <g id="sequence-7-phase-4-defender" class="person defender">
+    <ellipse class="torso" cx="895" cy="665" rx="34" ry="23"/>
+    <circle class="head" cx="895" cy="632" r="16"/>
+    <text class="person-label" x="895" y="665">V</text>
+    <line class="limb" x1="874" y1="659" x2="861" y2="634"/>
+    <line class="limb" x1="916" y1="659" x2="929" y2="634"/>
+    <g id="sequence-7-phase-4-defender-foot-l"><rect class="foot" x="852" y="608" width="26" height="44" rx="13"/><text class="side" x="865" y="630">L</text></g><g id="sequence-7-phase-4-defender-foot-r" class="ghost"><rect class="foot" x="912" y="678" width="26" height="44" rx="13"/><text class="side" x="925" y="700">R</text></g>
+  </g>
+    <g class="jump"><path class="motion-gray" d="M 850 700 Q 895 655 940 700"/><text class="move-label" x="895" y="727" text-anchor="middle">Absprung</text></g><g id="sequence-7-phase-4-action-1" class="action action-kick">
+      <path class="motion-blue" d="M 925 700 L 895 555"/>
+      <rect class="active-foot-blue" x="882" y="534" width="26" height="42" rx="13"/>
+      <text class="side" x="895" y="555">R</text>
+    </g><text class="caption" x="635" y="761">Absprung · rechter Vorwärtstritt zum Oberkörper</text>
+  </g>
+</svg>
