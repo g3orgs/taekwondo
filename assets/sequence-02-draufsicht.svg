@@ -6,7 +6,7 @@
     <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1769aa"/></marker>
     <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#69737d"/></marker>
     <style>
-      .panel{fill:#fff;stroke:#d8d2c9;stroke-width:2}.panel-title{fill:#17202a;font:700 21px system-ui,sans-serif}.panel-title.compact{font-size:18px}.caption{fill:#4f5a65;font:15px system-ui,sans-serif}.legend,.move-label{fill:#17202a;font:16px system-ui,sans-serif}.move-label{font-size:14px;font-weight:650}.torso,.head{stroke-width:3}.attacker .torso,.attacker .head{fill:#f8d9dc;stroke:#a62028}.defender .torso,.defender .head{fill:#dbeeff;stroke:#1769aa}.limb{fill:none;stroke:#69737d;stroke-linecap:round;stroke-width:7}.active-red,.active-blue{fill:none;stroke-linecap:round;stroke-width:9}.active-red{stroke:#a62028}.active-blue{stroke:#1769aa}.foot{stroke-width:2}.attacker .foot{fill:#fff4f4;stroke:#a62028}.defender .foot{fill:#f1f8ff;stroke:#1769aa}.active-foot-red{fill:#fff4f4;stroke:#a62028;stroke-width:3}.active-foot-blue{fill:#f1f8ff;stroke:#1769aa;stroke-width:3}.ghost{opacity:.25}.side,.person-label{fill:#17202a;font:700 14px system-ui,sans-serif;text-anchor:middle;dominant-baseline:middle}.motion-red,.motion-blue,.motion-gray,.rotation{fill:none;stroke-width:4;stroke-dasharray:8 6}.motion-red{stroke:#a62028;marker-end:url(#arrow-red)}.motion-blue{stroke:#1769aa;marker-end:url(#arrow-blue)}.motion-gray{stroke:#69737d;stroke-width:3;marker-end:url(#arrow-gray)}.rotation{stroke:#1769aa;marker-end:url(#arrow-blue)}
+      .panel{fill:#fff;stroke:#d8d2c9;stroke-width:2}.panel-title{fill:#17202a;font:700 21px system-ui,sans-serif}.panel-title.compact{font-size:18px}.caption{fill:#4f5a65;font:15px system-ui,sans-serif}.legend,.move-label{fill:#17202a;font:16px system-ui,sans-serif}.move-label{font-size:14px;font-weight:650}.stance-label{fill:#34404b;font:700 13px system-ui,sans-serif;text-anchor:end}.alignment{fill:none;stroke:#aab2ba;stroke-width:2;stroke-dasharray:5 6}.torso,.head{stroke-width:3}.attacker .torso,.attacker .head{fill:#f8d9dc;stroke:#a62028}.defender .torso,.defender .head{fill:#dbeeff;stroke:#1769aa}.limb{fill:none;stroke:#69737d;stroke-linecap:round;stroke-width:7}.active-red,.active-blue{fill:none;stroke-linecap:round;stroke-width:9}.active-red{stroke:#a62028}.active-blue{stroke:#1769aa}.foot{stroke-width:2}.attacker .foot{fill:#fff4f4;stroke:#a62028}.defender .foot{fill:#f1f8ff;stroke:#1769aa}.active-foot-red{fill:#fff4f4;stroke:#a62028;stroke-width:3}.active-foot-blue{fill:#f1f8ff;stroke:#1769aa;stroke-width:3}.ghost{opacity:.25}.side,.person-label{fill:#17202a;font:700 14px system-ui,sans-serif;text-anchor:middle;dominant-baseline:middle}.motion-red,.motion-blue,.motion-gray,.rotation{fill:none;stroke-width:4;stroke-dasharray:8 6}.motion-red{stroke:#a62028;marker-end:url(#arrow-red)}.motion-blue{stroke:#1769aa;marker-end:url(#arrow-blue)}.motion-gray{stroke:#69737d;stroke-width:3;marker-end:url(#arrow-gray)}.rotation{stroke:#1769aa;marker-end:url(#arrow-blue)}
     </style>
   </defs>
   <rect width="1200" height="820" fill="#f4f1eb"/>
@@ -19,7 +19,7 @@
   <g id="sequence-2-phase-1" class="phase">
     <rect class="panel" x="25" y="95" width="560" height="340" rx="14"/>
     <text class="panel-title" x="45" y="128">1 · Angriff und Abwehr</text>
-    <g id="sequence-2-phase-1-attacker" class="person attacker">
+    <g id="sequence-2-phase-1-alignment" class="start-alignment"><path class="alignment" d="M 305 163 L 305 367"/><text class="move-label" x="315" y="173">Ausgang: gegenüber</text></g><g id="sequence-2-phase-1-attacker" class="person attacker">
     <ellipse class="torso" cx="305" cy="195" rx="34" ry="23"/>
     <circle class="head" cx="305" cy="228" r="16"/>
     <text class="person-label" x="305" y="195">A</text>
@@ -28,14 +28,17 @@
     <g id="sequence-2-phase-1-attacker-foot-l"><rect class="foot" x="322" y="138" width="26" height="44" rx="13"/><text class="side" x="335" y="160">L</text></g><g id="sequence-2-phase-1-attacker-foot-r"><rect class="foot" x="262" y="208" width="26" height="44" rx="13"/><text class="side" x="275" y="230">R</text></g>
   </g>
     <g id="sequence-2-phase-1-defender" class="person defender">
-    <ellipse class="torso" cx="267" cy="320" rx="34" ry="23"/>
-    <circle class="head" cx="267" cy="287" r="16"/>
-    <text class="person-label" x="267" y="320">V</text>
-    <line class="limb" x1="246" y1="314" x2="233" y2="289"/>
-    <line class="limb" x1="288" y1="314" x2="301" y2="289"/>
-    <g id="sequence-2-phase-1-defender-foot-l"><rect class="foot" x="224" y="263" width="26" height="44" rx="13"/><text class="side" x="237" y="285">L</text></g><g id="sequence-2-phase-1-defender-foot-r"><rect class="foot" x="284" y="333" width="26" height="44" rx="13"/><text class="side" x="297" y="355">R</text></g>
+    <ellipse class="torso" cx="343" cy="320" rx="34" ry="23"/>
+    <circle class="head" cx="343" cy="287" r="16"/>
+    <text class="person-label" x="343" y="320">V</text>
+    <line class="limb" x1="322" y1="314" x2="309" y2="289"/>
+    <line class="limb" x1="364" y1="314" x2="377" y2="289"/>
+    <g id="sequence-2-phase-1-defender-foot-l"><rect class="foot" x="300" y="263" width="26" height="44" rx="13"/><text class="side" x="313" y="285">L</text></g><g id="sequence-2-phase-1-defender-foot-r"><rect class="foot" x="360" y="333" width="26" height="44" rx="13"/><text class="side" x="373" y="355">R</text></g>
   </g>
-    <g id="sequence-2-phase-1-movement" class="movement"><path class="motion-gray" d="M 305 320 L 267 320"/><text class="move-label" x="567" y="152" text-anchor="end">diagonal links</text></g><g id="sequence-2-phase-1-action-1" class="action action-punch"><path class="active-red" d="M 283 202 L 267 287"/><path class="motion-red" d="M 283 202 L 267 287"/></g><g id="sequence-2-phase-1-action-2" class="action action-block"><path class="active-blue" d="M 245 315 Q 267 290 262 265"/></g><text class="caption" x="45" y="401">Eolgul Jireugi R · links diagonal · Eolgul Bakkat Makki L</text>
+    <g id="sequence-2-phase-1-movement" class="movement"><path class="motion-gray" d="M 305 320 L 343 320"/><text class="move-label" x="567" y="152" text-anchor="end">rechts nach innen</text></g><g id="sequence-2-phase-1-action-1" class="action action-punch"><path class="active-red" d="M 283 202 L 305 320"/><path class="motion-red" d="M 283 202 L 305 320"/></g><g id="sequence-2-phase-1-action-2" class="action action-block"><path class="active-blue" d="M 321 315 Q 343 290 305 265"/></g><g id="sequence-2-phase-1-stances" class="stance-labels">
+    <text class="stance-label attacker-stance" x="567" y="199">A · Ap Gubi · R vor</text>
+    <text class="stance-label defender-stance" x="567" y="324">V · Ap Gubi · rechts innen</text>
+  </g><text class="caption" x="45" y="401">Momtong Jireugi R zur Körpermitte · rechts nach innen · Eolgul</text><text class="caption" x="45" y="420">Bakkat Makki L</text>
   </g>
 <g id="sequence-2-phase-2" class="phase">
     <rect class="panel" x="615" y="95" width="560" height="340" rx="14"/>
@@ -49,14 +52,17 @@
     <g id="sequence-2-phase-2-attacker-foot-l"><rect class="foot" x="912" y="138" width="26" height="44" rx="13"/><text class="side" x="925" y="160">L</text></g><g id="sequence-2-phase-2-attacker-foot-r"><rect class="foot" x="852" y="208" width="26" height="44" rx="13"/><text class="side" x="865" y="230">R</text></g>
   </g>
     <g id="sequence-2-phase-2-defender" class="person defender">
-    <ellipse class="torso" cx="857" cy="320" rx="34" ry="23"/>
-    <circle class="head" cx="857" cy="287" r="16"/>
-    <text class="person-label" x="857" y="320">V</text>
-    <line class="limb" x1="836" y1="314" x2="823" y2="289"/>
-    <line class="limb" x1="878" y1="314" x2="891" y2="289"/>
-    <g id="sequence-2-phase-2-defender-foot-l"><rect class="foot" x="814" y="263" width="26" height="44" rx="13"/><text class="side" x="827" y="285">L</text></g><g id="sequence-2-phase-2-defender-foot-r"><rect class="foot" x="874" y="333" width="26" height="44" rx="13"/><text class="side" x="887" y="355">R</text></g>
+    <ellipse class="torso" cx="933" cy="320" rx="34" ry="23"/>
+    <circle class="head" cx="933" cy="287" r="16"/>
+    <text class="person-label" x="933" y="320">V</text>
+    <line class="limb" x1="912" y1="314" x2="899" y2="289"/>
+    <line class="limb" x1="954" y1="314" x2="967" y2="289"/>
+    <g id="sequence-2-phase-2-defender-foot-l"><rect class="foot" x="890" y="263" width="26" height="44" rx="13"/><text class="side" x="903" y="285">L</text></g><g id="sequence-2-phase-2-defender-foot-r"><rect class="foot" x="950" y="333" width="26" height="44" rx="13"/><text class="side" x="963" y="355">R</text></g>
   </g>
-    <g id="sequence-2-phase-2-action-1" class="action action-backfist"><path class="active-blue" d="M 879 313 Q 882 274 895 228"/><path class="motion-blue" d="M 879 313 L 895 228"/></g><text class="caption" x="635" y="401">Rechter Handrückenschlag zum Kopf</text>
+    <g id="sequence-2-phase-2-action-1" class="action action-backfist"><path class="active-blue" d="M 955 313 Q 958 274 895 228"/><path class="motion-blue" d="M 955 313 L 895 228"/></g><g id="sequence-2-phase-2-stances" class="stance-labels">
+    <text class="stance-label attacker-stance" x="1157" y="199">A · Ap Gubi · R vor</text>
+    <text class="stance-label defender-stance" x="1157" y="324">V · Ap Gubi · rechts innen</text>
+  </g><text class="caption" x="635" y="401">Rechter Handrückenschlag zum Kopf</text>
   </g>
 <g id="sequence-2-phase-3" class="phase">
     <rect class="panel" x="25" y="455" width="560" height="340" rx="14"/>
@@ -70,14 +76,17 @@
     <g id="sequence-2-phase-3-attacker-foot-l"><rect class="foot" x="322" y="498" width="26" height="44" rx="13"/><text class="side" x="335" y="520">L</text></g><g id="sequence-2-phase-3-attacker-foot-r"><rect class="foot" x="262" y="568" width="26" height="44" rx="13"/><text class="side" x="275" y="590">R</text></g>
   </g>
     <g id="sequence-2-phase-3-defender" class="person defender">
-    <ellipse class="torso" cx="281" cy="660" rx="34" ry="23"/>
-    <circle class="head" cx="281" cy="627" r="16"/>
-    <text class="person-label" x="281" y="660">V</text>
-    <line class="limb" x1="260" y1="654" x2="247" y2="629"/>
-    <line class="limb" x1="302" y1="654" x2="315" y2="629"/>
-    <g id="sequence-2-phase-3-defender-foot-l"><rect class="foot" x="238" y="673" width="26" height="44" rx="13"/><text class="side" x="251" y="695">L</text></g><g id="sequence-2-phase-3-defender-foot-r"><rect class="foot" x="298" y="603" width="26" height="44" rx="13"/><text class="side" x="311" y="625">R</text></g>
+    <ellipse class="torso" cx="329" cy="660" rx="34" ry="23"/>
+    <circle class="head" cx="329" cy="627" r="16"/>
+    <text class="person-label" x="329" y="660">V</text>
+    <line class="limb" x1="308" y1="654" x2="295" y2="629"/>
+    <line class="limb" x1="350" y1="654" x2="363" y2="629"/>
+    <g id="sequence-2-phase-3-defender-foot-l"><rect class="foot" x="286" y="673" width="26" height="44" rx="13"/><text class="side" x="299" y="695">L</text></g><g id="sequence-2-phase-3-defender-foot-r"><rect class="foot" x="346" y="603" width="26" height="44" rx="13"/><text class="side" x="359" y="625">R</text></g>
   </g>
-    <g id="sequence-2-phase-3-movement" class="movement"><path class="motion-gray" d="M 311 695 L 311 625"/><text class="move-label" x="567" y="512" text-anchor="end">R heran</text></g><g id="sequence-2-phase-3-action-1" class="action action-elbow"><path class="active-blue" d="M 303 653 Q 306 629.55 294.92 599.1"/><path class="motion-blue" d="M 303 653 L 294.92 599.1"/></g><text class="caption" x="45" y="761">Rechts herantreten · rechter Ellenbogen zum Oberkörper</text>
+    <g id="sequence-2-phase-3-movement" class="movement"><path class="motion-gray" d="M 359 695 L 359 625"/><text class="move-label" x="567" y="512" text-anchor="end">R heran</text></g><g id="sequence-2-phase-3-action-1" class="action action-elbow"><path class="active-blue" d="M 351 653 Q 354 629.55 315.08 599.1"/><path class="motion-blue" d="M 351 653 L 315.08 599.1"/></g><g id="sequence-2-phase-3-stances" class="stance-labels">
+    <text class="stance-label attacker-stance" x="567" y="559">A · Ap Gubi · R vor</text>
+    <text class="stance-label defender-stance" x="567" y="664">V · Ap Gubi · R vor</text>
+  </g><text class="caption" x="45" y="761">Rechts herantreten · rechter Ellenbogen zum Oberkörper</text>
   </g>
 <g id="sequence-2-phase-4" class="phase">
     <rect class="panel" x="615" y="455" width="560" height="340" rx="14"/>
@@ -91,17 +100,20 @@
     <g id="sequence-2-phase-4-attacker-foot-l"><rect class="foot" x="912" y="498" width="26" height="44" rx="13"/><text class="side" x="925" y="520">L</text></g><g id="sequence-2-phase-4-attacker-foot-r"><rect class="foot" x="852" y="568" width="26" height="44" rx="13"/><text class="side" x="865" y="590">R</text></g>
   </g>
     <g id="sequence-2-phase-4-defender" class="person defender">
-    <ellipse class="torso" cx="885" cy="685" rx="34" ry="23"/>
-    <circle class="head" cx="885" cy="652" r="16"/>
-    <text class="person-label" x="885" y="685">V</text>
-    <line class="limb" x1="864" y1="679" x2="851" y2="654"/>
-    <line class="limb" x1="906" y1="679" x2="919" y2="654"/>
-    <g id="sequence-2-phase-4-defender-foot-l"><rect class="foot" x="842" y="698" width="26" height="44" rx="13"/><text class="side" x="855" y="720">L</text></g><g id="sequence-2-phase-4-defender-foot-r" class="ghost"><rect class="foot" x="902" y="628" width="26" height="44" rx="13"/><text class="side" x="915" y="650">R</text></g>
+    <ellipse class="torso" cx="905" cy="685" rx="34" ry="23"/>
+    <circle class="head" cx="905" cy="652" r="16"/>
+    <text class="person-label" x="905" y="685">V</text>
+    <line class="limb" x1="884" y1="679" x2="871" y2="654"/>
+    <line class="limb" x1="926" y1="679" x2="939" y2="654"/>
+    <g id="sequence-2-phase-4-defender-foot-l"><rect class="foot" x="862" y="698" width="26" height="44" rx="13"/><text class="side" x="875" y="720">L</text></g><g id="sequence-2-phase-4-defender-foot-r" class="ghost"><rect class="foot" x="922" y="628" width="26" height="44" rx="13"/><text class="side" x="935" y="650">R</text></g>
   </g>
-    <g id="sequence-2-phase-4-movement" class="movement"><path class="motion-gray" d="M 885 675 L 885 733"/><text class="move-label" x="1157" y="512" text-anchor="end">Ausstieg</text></g><g id="sequence-2-phase-4-action-1" class="action action-sidekick">
-      <path class="motion-blue" d="M 915 650 Q 850 620 895 555"/>
+    <g id="sequence-2-phase-4-movement" class="movement"><path class="motion-gray" d="M 905 675 L 905 733"/><text class="move-label" x="1157" y="512" text-anchor="end">Ausstieg</text></g><g id="sequence-2-phase-4-action-1" class="action action-sidekick">
+      <path class="motion-blue" d="M 935 650 Q 870 620 895 555"/>
       <rect class="active-foot-blue" x="882" y="534" width="26" height="42" rx="13"/>
       <text class="side" x="895" y="555">R</text>
-    </g><text class="caption" x="635" y="761">Rechter Seitwärtstritt · Distanz lösen</text>
+    </g><g id="sequence-2-phase-4-stances" class="stance-labels">
+    <text class="stance-label attacker-stance" x="1157" y="559">A · Ap Gubi · R vor</text>
+    <text class="stance-label defender-stance" x="1157" y="689">V · Standbein L · Tritt R</text>
+  </g><text class="caption" x="635" y="761">Rechter Seitwärtstritt · Distanz lösen</text>
   </g>
 </svg>

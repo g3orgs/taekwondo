@@ -6,7 +6,7 @@
     <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1769aa"/></marker>
     <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#69737d"/></marker>
     <style>
-      .panel{fill:#fff;stroke:#d8d2c9;stroke-width:2}.panel-title{fill:#17202a;font:700 21px system-ui,sans-serif}.panel-title.compact{font-size:18px}.caption{fill:#4f5a65;font:15px system-ui,sans-serif}.legend,.move-label{fill:#17202a;font:16px system-ui,sans-serif}.move-label{font-size:14px;font-weight:650}.torso,.head{stroke-width:3}.attacker .torso,.attacker .head{fill:#f8d9dc;stroke:#a62028}.defender .torso,.defender .head{fill:#dbeeff;stroke:#1769aa}.limb{fill:none;stroke:#69737d;stroke-linecap:round;stroke-width:7}.active-red,.active-blue{fill:none;stroke-linecap:round;stroke-width:9}.active-red{stroke:#a62028}.active-blue{stroke:#1769aa}.foot{stroke-width:2}.attacker .foot{fill:#fff4f4;stroke:#a62028}.defender .foot{fill:#f1f8ff;stroke:#1769aa}.active-foot-red{fill:#fff4f4;stroke:#a62028;stroke-width:3}.active-foot-blue{fill:#f1f8ff;stroke:#1769aa;stroke-width:3}.ghost{opacity:.25}.side,.person-label{fill:#17202a;font:700 14px system-ui,sans-serif;text-anchor:middle;dominant-baseline:middle}.motion-red,.motion-blue,.motion-gray,.rotation{fill:none;stroke-width:4;stroke-dasharray:8 6}.motion-red{stroke:#a62028;marker-end:url(#arrow-red)}.motion-blue{stroke:#1769aa;marker-end:url(#arrow-blue)}.motion-gray{stroke:#69737d;stroke-width:3;marker-end:url(#arrow-gray)}.rotation{stroke:#1769aa;marker-end:url(#arrow-blue)}
+      .panel{fill:#fff;stroke:#d8d2c9;stroke-width:2}.panel-title{fill:#17202a;font:700 21px system-ui,sans-serif}.panel-title.compact{font-size:18px}.caption{fill:#4f5a65;font:15px system-ui,sans-serif}.legend,.move-label{fill:#17202a;font:16px system-ui,sans-serif}.move-label{font-size:14px;font-weight:650}.stance-label{fill:#34404b;font:700 13px system-ui,sans-serif;text-anchor:end}.torso,.head{stroke-width:3}.attacker .torso,.attacker .head{fill:#f8d9dc;stroke:#a62028}.defender .torso,.defender .head{fill:#dbeeff;stroke:#1769aa}.limb{fill:none;stroke:#69737d;stroke-linecap:round;stroke-width:7}.active-red,.active-blue{fill:none;stroke-linecap:round;stroke-width:9}.active-red{stroke:#a62028}.active-blue{stroke:#1769aa}.foot{stroke-width:2}.attacker .foot{fill:#fff4f4;stroke:#a62028}.defender .foot{fill:#f1f8ff;stroke:#1769aa}.active-foot-red{fill:#fff4f4;stroke:#a62028;stroke-width:3}.active-foot-blue{fill:#f1f8ff;stroke:#1769aa;stroke-width:3}.ghost{opacity:.25}.side,.person-label{fill:#17202a;font:700 14px system-ui,sans-serif;text-anchor:middle;dominant-baseline:middle}.motion-red,.motion-blue,.motion-gray,.rotation{fill:none;stroke-width:4;stroke-dasharray:8 6}.motion-red{stroke:#a62028;marker-end:url(#arrow-red)}.motion-blue{stroke:#1769aa;marker-end:url(#arrow-blue)}.motion-gray{stroke:#69737d;stroke-width:3;marker-end:url(#arrow-gray)}.rotation{stroke:#1769aa;marker-end:url(#arrow-blue)}
     </style>
   </defs>
   <rect width="1200" height="800" fill="#f4f1eb"/>
@@ -35,7 +35,10 @@
     <line class="limb" x1="231" y1="314" x2="244" y2="289"/>
     <g id="sequence-5-phase-1-defender-foot-l"><rect class="foot" x="167" y="263" width="26" height="44" rx="13"/><text class="side" x="180" y="285">L</text></g><g id="sequence-5-phase-1-defender-foot-r"><rect class="foot" x="227" y="333" width="26" height="44" rx="13"/><text class="side" x="240" y="355">R</text></g>
   </g>
-    <g id="sequence-5-phase-1-movement" class="movement"><path class="motion-gray" d="M 240 320 L 240 355"/><text class="move-label" x="377" y="152" text-anchor="end">R zurück</text></g><g id="sequence-5-phase-1-action-1" class="action action-punch"><path class="active-red" d="M 188 202 L 210 320"/><path class="motion-red" d="M 188 202 L 210 320"/></g><g id="sequence-5-phase-1-action-2" class="action action-block"><path class="active-blue" d="M 188 315 Q 210 290 205 265"/></g><text class="caption" x="45" y="391">Momtong Jireugi R · R zurück · Sonnal</text><text class="caption" x="45" y="410">Momtong Makki L</text>
+    <g id="sequence-5-phase-1-movement" class="movement"><path class="motion-gray" d="M 240 320 L 240 355"/><text class="move-label" x="377" y="152" text-anchor="end">R zurück</text></g><g id="sequence-5-phase-1-action-1" class="action action-punch"><path class="active-red" d="M 188 202 L 210 320"/><path class="motion-red" d="M 188 202 L 210 320"/></g><g id="sequence-5-phase-1-action-2" class="action action-block"><path class="active-blue" d="M 188 315 Q 210 290 205 265"/></g><g id="sequence-5-phase-1-stances" class="stance-labels">
+    <text class="stance-label attacker-stance" x="377" y="199">A · Ap Gubi · R vor</text>
+    <text class="stance-label defender-stance" x="377" y="324">V · Dwit Gubi · R zurück</text>
+  </g><text class="caption" x="45" y="391">Momtong Jireugi R zur Körpermitte · R</text><text class="caption" x="45" y="410">zurück · Sonnal Momtong Makki L</text>
   </g>
 <g id="sequence-5-phase-2" class="phase">
     <rect class="panel" x="415" y="95" width="370" height="330" rx="14"/>
@@ -60,7 +63,10 @@
       <path class="motion-blue" d="M 630 355 Q 642 257.5 600 195"/>
       <rect class="active-foot-blue" x="587" y="174" width="26" height="42" rx="13"/>
       <text class="side" x="600" y="195">R</text>
-    </g><text class="caption" x="435" y="391">Rechter Rundtritt aus langer Distanz</text>
+    </g><g id="sequence-5-phase-2-stances" class="stance-labels">
+    <text class="stance-label attacker-stance" x="767" y="199">A · Ap Gubi · R vor</text>
+    <text class="stance-label defender-stance" x="767" y="324">V · Standbein L · Tritt R</text>
+  </g><text class="caption" x="435" y="391">Rechter Rundtritt aus langer Distanz</text>
   </g>
 <g id="sequence-5-phase-3" class="phase">
     <rect class="panel" x="805" y="95" width="370" height="330" rx="14"/>
@@ -81,7 +87,10 @@
     <line class="limb" x1="1011" y1="304" x2="1024" y2="279"/>
     <g id="sequence-5-phase-3-defender-foot-l"><rect class="foot" x="947" y="323" width="26" height="44" rx="13"/><text class="side" x="960" y="345">L</text></g><g id="sequence-5-phase-3-defender-foot-r"><rect class="foot" x="1007" y="253" width="26" height="44" rx="13"/><text class="side" x="1020" y="275">R</text></g>
   </g>
-    <g id="sequence-5-phase-3-movement" class="movement"><path class="motion-gray" d="M 1020 345 L 1020 275"/><text class="move-label" x="1157" y="152" text-anchor="end">R absetzen</text></g><g id="sequence-5-phase-3-action-1" class="action action-punch"><path class="active-blue" d="M 968 303 L 990 195"/><path class="motion-blue" d="M 968 303 L 990 195"/></g><text class="caption" x="825" y="391">Rechts vorn absetzen · linke Faust</text>
+    <g id="sequence-5-phase-3-movement" class="movement"><path class="motion-gray" d="M 1020 345 L 1020 275"/><text class="move-label" x="1157" y="152" text-anchor="end">R absetzen</text></g><g id="sequence-5-phase-3-action-1" class="action action-punch"><path class="active-blue" d="M 968 303 L 990 195"/><path class="motion-blue" d="M 968 303 L 990 195"/></g><g id="sequence-5-phase-3-stances" class="stance-labels">
+    <text class="stance-label attacker-stance" x="1157" y="199">A · Ap Gubi · R vor</text>
+    <text class="stance-label defender-stance" x="1157" y="314">V · Ap Gubi · R vor</text>
+  </g><text class="caption" x="825" y="391">Rechts vorn absetzen · linke Faust</text>
   </g>
 <g id="sequence-5-phase-4" class="phase">
     <rect class="panel" x="220" y="445" width="370" height="330" rx="14"/>
@@ -102,7 +111,10 @@
     <line class="limb" x1="426" y1="639" x2="439" y2="614"/>
     <g id="sequence-5-phase-4-defender-foot-l"><rect class="foot" x="362" y="658" width="26" height="44" rx="13"/><text class="side" x="375" y="680">L</text></g><g id="sequence-5-phase-4-defender-foot-r"><rect class="foot" x="422" y="588" width="26" height="44" rx="13"/><text class="side" x="435" y="610">R</text></g>
   </g>
-    <g id="sequence-5-phase-4-movement" class="movement"><path class="motion-gray" d="M 435 680 L 435 610"/><text class="move-label" x="572" y="502" text-anchor="end">R heran</text></g><g id="sequence-5-phase-4-action-1" class="action action-elbow"><path class="active-blue" d="M 427 638 Q 430 616 405 587"/><path class="motion-blue" d="M 427 638 L 405 587"/></g><text class="caption" x="240" y="741">Rechts herantreten · rechter Ellenbogen</text>
+    <g id="sequence-5-phase-4-movement" class="movement"><path class="motion-gray" d="M 435 680 L 435 610"/><text class="move-label" x="572" y="502" text-anchor="end">R heran</text></g><g id="sequence-5-phase-4-action-1" class="action action-elbow"><path class="active-blue" d="M 427 638 Q 430 616 405 587"/><path class="motion-blue" d="M 427 638 L 405 587"/></g><g id="sequence-5-phase-4-stances" class="stance-labels">
+    <text class="stance-label attacker-stance" x="572" y="549">A · Ap Gubi · R vor</text>
+    <text class="stance-label defender-stance" x="572" y="649">V · Ap Gubi · R vor</text>
+  </g><text class="caption" x="240" y="741">Rechts herantreten · rechter Ellenbogen</text>
   </g>
 <g id="sequence-5-phase-5" class="phase">
     <rect class="panel" x="610" y="445" width="370" height="330" rx="14"/>
@@ -127,6 +139,9 @@
       <path class="motion-blue" d="M 825 623 Q 760 601.5 795 545"/>
       <rect class="active-foot-blue" x="782" y="524" width="26" height="42" rx="13"/>
       <text class="side" x="795" y="545">R</text>
-    </g><text class="caption" x="630" y="741">Rechter Seitwärtstritt löst die</text><text class="caption" x="630" y="760">Nahdistanz</text>
+    </g><g id="sequence-5-phase-5-stances" class="stance-labels">
+    <text class="stance-label attacker-stance" x="962" y="549">A · Ap Gubi · R vor</text>
+    <text class="stance-label defender-stance" x="962" y="662">V · Standbein L · Tritt R</text>
+  </g><text class="caption" x="630" y="741">Rechter Seitwärtstritt löst die</text><text class="caption" x="630" y="760">Nahdistanz</text>
   </g>
 </svg>

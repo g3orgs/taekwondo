@@ -7,15 +7,21 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 ## Rahmenbedingungen
 
 - Der Angreifer greift zunächst jeweils rechts an.
+- Alle Angriffe des Angreifers gehen zur Körpermitte (Solarplexus).
 - Jede Sequenz enthält eine Abwehr und drei Folgetechniken.
 - Nur Sequenz 5 enthält vier Folgetechniken, weil der abschließende Yop Chagi die Nahdistanz sinnvoll auflöst.
 - Rechts ist die bevorzugte Seite.
 - Kopf-, Ellenbogen- und Fußtechniken werden deutlich vor dem Ziel gestoppt.
 
+**Stellungsnamen:** Ap Gubi = große Vorwärtsbeugestellung; Dwit Gubi = Rückwärtsbeugestellung. Die Beschriftung nennt den tatsächlich bewegten Fuß (`R vor`, `R zurück`, `diagonal links` usw.). Während eines Tritts zeigen die Grafiken Standbein und Trittbein.
+
 ## Sequenz 1: Klassische Kombination
 
-**Angriff:** Momtong Jireugi rechts  
+**Angriff:** Momtong Jireugi rechts zur Körpermitte
+
 **Abwehr:** Rechten Fuß zurücksetzen, Momtong An Makki links
+
+**Fußarbeit:** Angreifer: Ap Gubi, rechts vor; Verteidiger: Ap Gubi, rechts zurück
 
 1. Momtong Jireugi rechts
 2. Eolgul Jireugi links
@@ -27,10 +33,19 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 *A = Angreifer, V = Verteidiger. R und L bezeichnen jeweils die eigene rechte beziehungsweise linke Seite der dargestellten Person.*
 
+> **Komplexität: 5 Aktionen · 4 Technikarten**
+>
+> **Techniken:** Momtong Jireugi R (Angriff und Konter), Momtong An Makki L, Eolgul Jireugi L, Ap Chagi R
+>
+> **Stellungen/Fußarbeit:** Ap Gubi; A: R vor; V: R zurück; Standbein L beim Ap Chagi R
+
 ## Sequenz 2: Wechsel in die Nahdistanz
 
-**Angriff:** Eolgul Jireugi rechts  
-**Abwehr:** Links diagonal nach außen, Eolgul Bakkat Makki links
+**Angriff:** Momtong Jireugi rechts zur Körpermitte
+
+**Abwehr:** Rechts diagonal nach innen, Eolgul Bakkat Makki links
+
+**Fußarbeit:** Angreifer: Ap Gubi, rechts vor; Verteidiger: Ap Gubi, diagonal rechts nach innen
 
 1. Deung Jumeok Ap Chigi rechts zum Kopf
 2. Rechts herantreten, Palkup Dollyeo Chigi zum Oberkörper
@@ -40,10 +55,19 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 ![Sequenz 2 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-02-draufsicht.svg)
 
+> **Komplexität: 5 Aktionen · 5 Technikarten**
+>
+> **Techniken:** Momtong Jireugi R, Eolgul Bakkat Makki L, Deung Jumeok Ap Chigi R, Palkup Dollyeo Chigi R, Yop Chagi R
+>
+> **Stellungen/Fußarbeit:** Ap Gubi; A: R vor; V: rechts nach innen und R vor; Standbein L beim Yop Chagi R
+
 ## Sequenz 3: Seitliche Fußabwehr
 
-**Angriff:** Ap Chagi rechts  
+**Angriff:** Ap Chagi rechts zur Körpermitte
+
 **Abwehr:** Links diagonal ausweichen, Sonnal Arae Makki links
+
+**Fußarbeit:** Angreifer: Dwit Gubi, rechts zurück vor dem Tritt; Verteidiger: Ap Gubi, diagonal links
 
 1. Momtong Jireugi rechts
 2. Ap Chagi links
@@ -53,10 +77,19 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 ![Sequenz 3 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-03-draufsicht.svg)
 
+> **Komplexität: 5 Aktionen · 4 Technikarten**
+>
+> **Techniken:** Ap Chagi R (Angriff), Sonnal Arae Makki L, Momtong Jireugi R, Ap Chagi L, Paltung Chagi R
+>
+> **Stellungen/Fußarbeit:** Dwit Gubi (A: R zurück), Ap Gubi (V: diagonal links); Standbein R beim Ap Chagi L; Standbein L beim Paltung Chagi R
+
 ## Sequenz 4: Kreuzblock und Dwit Chagi
 
-**Angriff:** Ap Chagi rechts  
+**Angriff:** Ap Chagi rechts zur Körpermitte
+
 **Abwehr:** Rechten Fuß zurücksetzen, Eotgeoreo Arae Makki
+
+**Fußarbeit:** Angreifer: Dwit Gubi, rechts zurück vor dem Tritt; Verteidiger: Ap Gubi, rechts zurück
 
 1. Ap Chagi rechts
 2. Rechts vorn absetzen, Momtong Jireugi links
@@ -66,10 +99,19 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 ![Sequenz 4 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-04-draufsicht.svg)
 
+> **Komplexität: 5 Aktionen · 4 Technikarten**
+>
+> **Techniken:** Ap Chagi R (Angriff und Konter), Eotgeoreo Arae Makki, Momtong Jireugi L, Dwit Chagi R
+>
+> **Stellungen/Fußarbeit:** Dwit Gubi (A: R zurück), Ap Gubi (V: R zurück, danach R vor); Standbein L bei den rechten Tritten; Drehung links vor Dwit Chagi R
+
 ## Sequenz 5: Vier Distanzstufen
 
-**Angriff:** Momtong Jireugi rechts  
-**Abwehr:** Rechten Fuß zurück in Dwit-gubi, Sonnal Momtong Makki links
+**Angriff:** Momtong Jireugi rechts zur Körpermitte
+
+**Abwehr:** Rechten Fuß zurück in Dwit Gubi, Sonnal Momtong Makki links
+
+**Fußarbeit:** Angreifer: Ap Gubi, rechts vor; Verteidiger: Dwit Gubi, rechts zurück
 
 1. Paltung Chagi rechts
 2. Rechts vorn absetzen, Momtong Jireugi links
@@ -80,10 +122,19 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 ![Sequenz 5 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-05-draufsicht.svg)
 
+> **Komplexität: 6 Aktionen · 5 Technikarten**
+>
+> **Techniken:** Momtong Jireugi R/L, Sonnal Momtong Makki L, Paltung Chagi R, Palkup Dollyeo Chigi R, Yop Chagi R
+>
+> **Stellungen/Fußarbeit:** Ap Gubi (A: R vor), Dwit Gubi (V: R zurück), danach R vor; Standbein L beim Paltung Chagi R und Yop Chagi R
+
 ## Sequenz 6: Innenseite und linkes Bein
 
-**Angriff:** Eolgul Jireugi rechts  
+**Angriff:** Momtong Jireugi rechts zur Körpermitte
+
 **Abwehr:** Rechts diagonal aus der Trefferlinie, Eolgul Makki rechts
+
+**Fußarbeit:** Angreifer: Ap Gubi, rechts vor; Verteidiger: Ap Gubi, diagonal rechts
 
 1. Momtong Jireugi links
 2. Deung Jumeok Ap Chigi rechts
@@ -93,10 +144,19 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 ![Sequenz 6 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-06-draufsicht.svg)
 
+> **Komplexität: 5 Aktionen · 4 Technikarten**
+>
+> **Techniken:** Momtong Jireugi R/L, Eolgul Makki R, Deung Jumeok Ap Chigi R, Paltung Chagi L
+>
+> **Stellungen/Fußarbeit:** Ap Gubi; A: R vor; V: diagonal rechts; Standbein R beim Paltung Chagi L
+
 ## Sequenz 7: Gesprungener Ap Chagi
 
-**Angriff:** Momtong Jireugi rechts  
+**Angriff:** Momtong Jireugi rechts zur Körpermitte
+
 **Abwehr:** Linken Fuß zurücksetzen, Momtong Bakkat Makki rechts
+
+**Fußarbeit:** Angreifer: Ap Gubi, rechts vor; Verteidiger: Ap Gubi, links zurück
 
 1. Momtong Jireugi links
 2. Ap Chagi links und vorn absetzen
@@ -106,10 +166,19 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 
 ![Sequenz 7 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-07-draufsicht.svg)
 
+> **Komplexität: 5 Aktionen · 4 Technikvarianten**
+>
+> **Techniken:** Momtong Jireugi R/L, Momtong Bakkat Makki R, Ap Chagi L, gesprungener Ap Chagi R
+>
+> **Stellungen/Fußarbeit:** Ap Gubi; A: R vor; V: L zurück; Standbein R beim Ap Chagi L; Absprung zum Ap Chagi R
+
 ## Sequenz 8: Fuß, Handrücken und Ellenbogen
 
-**Angriff:** Momtong Jireugi rechts  
+**Angriff:** Momtong Jireugi rechts zur Körpermitte
+
 **Abwehr:** Links diagonal nach außen, Hansonnal Momtong Bakkat Makki links
+
+**Fußarbeit:** Angreifer: Ap Gubi, rechts vor; Verteidiger: Dwit Gubi, diagonal links
 
 1. Paltung Chagi rechts zum Oberkörper
 2. Rechts absetzen und mit links vortreten, Deung Jumeok Ap Chigi links
@@ -118,6 +187,12 @@ Testprogramm mit acht verschiedenen Übungen für die Prüfung zum **1. Kup – 
 **Prinzip:** Fußdistanz → Handdistanz → Ellbogendistanz
 
 ![Sequenz 8 als Draufsicht mit markierten rechten und linken Fußstellungen](assets/sequence-08-draufsicht.svg)
+
+> **Komplexität: 5 Aktionen · 5 Technikarten**
+>
+> **Techniken:** Momtong Jireugi R, Hansonnal Momtong Bakkat Makki L, Paltung Chagi R, Deung Jumeok Ap Chigi L, Palkup Dollyeo Chigi R
+>
+> **Stellungen/Fußarbeit:** Ap Gubi und Dwit Gubi; A: R vor; V: diagonal links, danach L vor und R vor; Standbein L beim Paltung Chagi R
 
 ## Checkliste fürs Probetraining
 
